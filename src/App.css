@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+}
+
+.titleMain {
+  width: 100%;
+}
+
+.about {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 11rem;
+
+}
+
+.imageAbout {
+  width: 10%;
+  border-radius: 10px;
+
+}
+
+.titleMain h1 {
+  position: absolute;
+  top: 16rem;
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+
+.titleMain h3 {
+  position: absolute;
+  top: 21rem;
+  width: 100%;
+  text-align: center;
+}
+
+.titleMain h1 span {
+  animation: maquina 5s infinite alternate;
+}
+
+.portafolio {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  margin-top: 4rem;
+}
+
+.card {
+  width: 20rem;
+  margin: 1.5rem;
+  
+}
+
+.contact {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 4rem;
+}
+.input-group{
+  height: 8rem;
+}
+
+@keyframes maquina {
+  from {
+    width: 100%;
+  }
+
+  to {
+    width: 0;
+  }
+}
