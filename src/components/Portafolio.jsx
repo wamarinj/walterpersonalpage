@@ -11,17 +11,17 @@ const Portafolio = () => {
     return (
        <div className='portafolio'>
         <Card >
-      <Card.Img variant="top" src="src/assets/ecomerce.png" />
+      <Card.Img variant="top" src="ecomerce.png" />
       <Card.Body>
         <Card.Title>Ecomerce</Card.Title>
         <Card.Text>
           Using <br></br>
-          <img src="src/assets/reactlogo.svg" style={{width: "40px"}}/>
-          <img src="src/assets/Bootstrap_logo.png" style={{width: "40px"}}/>
-          <img src="src/assets/githublogo.png" style={{width: "40px"}}/>
-          <img src="src/assets/icon-html.png" style={{width: "40px"}}/>
-          <img src="src/assets/icon-css.png" style={{width: "40px"}}/>
-          <img src="src/assets/icon-js.png" style={{width: "40px"}}/>
+          <img src="reactlogo.svg" style={{width: "40px"}}/>
+          <img src="Bootstrap_logo.png" style={{width: "40px"}}/>
+          <img src="githublogo.png" style={{width: "40px"}}/>
+          <img src="icon-html.png" style={{width: "40px"}}/>
+          <img src="icon-css.png" style={{width: "40px"}}/>
+          <img src="icon-js.png" style={{width: "40px"}}/>
         </Card.Text>
         <Button link href="https://tourmaline-bonbon-8cc184.netlify.app/#/" 
             variant="primary">Go Ecomerce</Button>
@@ -29,15 +29,15 @@ const Portafolio = () => {
     </Card>
 
     <Card >
-      <Card.Img variant="top" src="src/assets/pokeapi.png" />
+      <Card.Img variant="top" src="pokeapi.png" />
       <Card.Body>
         <Card.Title>Poke Api</Card.Title>
         <Card.Text>
         Using <br></br>
-          <img src="src/assets/githublogo.png" style={{width: "40px"}}/>
-          <img src="src/assets/icon-html.png" style={{width: "40px"}}/>
-          <img src="src/assets/icon-css.png" style={{width: "40px"}}/>
-          <img src="src/assets/icon-js.png" style={{width: "40px"}}/>
+          <img src="githublogo.png" style={{width: "40px"}}/>
+          <img src="icon-html.png" style={{width: "40px"}}/>
+          <img src="icon-css.png" style={{width: "40px"}}/>
+          <img src="icon-js.png" style={{width: "40px"}}/>
         </Card.Text>
         <Button 
         link href="https://silly-sprite-397cb0.netlify.app/#/"
@@ -46,15 +46,15 @@ const Portafolio = () => {
     </Card>
 
     <Card >
-      <Card.Img variant="top" src="src/assets/rickandmorty.png" />
+      <Card.Img variant="top" src="rickandmorty.png" />
       <Card.Body>
         <Card.Title>Rick and Morty</Card.Title>
         <Card.Text>
         Using <br></br>  
-          <img src="src/assets/githublogo.png" style={{width: "40px"}}/>
-          <img src="src/assets/icon-html.png" style={{width: "40px"}}/>
-          <img src="src/assets/icon-css.png" style={{width: "40px"}}/>
-          <img src="src/assets/icon-js.png" style={{width: "40px"}}/>
+          <img src="githublogo.png" style={{width: "40px"}}/>
+          <img src="icon-html.png" style={{width: "40px"}}/>
+          <img src="icon-css.png" style={{width: "40px"}}/>
+          <img src="icon-js.png" style={{width: "40px"}}/>
         </Card.Text>
         <Button 
         link href="https://euphonious-snickerdoodle-c66416.netlify.app/"
@@ -63,15 +63,15 @@ const Portafolio = () => {
     </Card>
 
     <Card >
-      <Card.Img variant="top" src="src/assets/weatherapp.png" />
+      <Card.Img variant="top" src="weatherapp.png" />
       <Card.Body>
         <Card.Title>Weather App</Card.Title>
         <Card.Text>
         Using <br></br>         
-          <img src="src/assets/githublogo.png" style={{width: "40px"}}/>
-          <img src="src/assets/icon-html.png" style={{width: "40px"}}/>
-          <img src="src/assets/icon-css.png" style={{width: "40px"}}/>
-          <img src="src/assets/icon-js.png" style={{width: "40px"}}/>
+          <img src="githublogo.png" style={{width: "40px"}}/>
+          <img src="icon-html.png" style={{width: "40px"}}/>
+          <img src="icon-css.png" style={{width: "40px"}}/>
+          <img src="icon-js.png" style={{width: "40px"}}/>
         </Card.Text>
         <Button 
         link href="https://nimble-douhua-896fc7.netlify.app/"

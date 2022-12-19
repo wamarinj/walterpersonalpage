@@ -8,7 +8,7 @@ const Spanish = () => {
     return (
         <div>
             <div className='about'>
-            <img className='imageAbout' src="src/assets/1.jpg" />
+            <img className='imageAbout' src="/1.jpg" />
             <div>
                 <h3>Hola, Soy Walter</h3> <h4>Encantado de conocerte.</h4>
                 <p>Me gusta aprender cosas nuevas y aunque 
