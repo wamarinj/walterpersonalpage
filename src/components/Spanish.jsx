@@ -15,7 +15,9 @@ const Spanish = () => {
                     <br/>soy economista de profesión ahora estoy dedicado a <br></br>
                     convertirme en Fullstack Developer<br/></p>
                 <h6>Descargar CV</h6><button type="button" 
-                class="btn btn-outline-warning">CV</button>
+                    class="btn btn-outline-warning"> 
+                    <a href='CVWalterMarin.pdf' download>CV</a>
+                </button>
             </div>
         </div>
             

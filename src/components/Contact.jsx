@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Form, InputGroup } from 'react-bootstrap';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Contact = () => {
     const navigate = useNavigate();
@@ -28,6 +28,11 @@ const Contact = () => {
                 <Button variant="primary" type="submit">
                     Submit
                 </Button>
+                <br></br>
+                <a href="https://www.linkedin.com/in/walter-m-b23a37177/">
+                    <img src="Linkedin_Logo.svg"     
+                    style={{width: "100px"}} />
+                </a>          
             </Form>
         </div>
     );

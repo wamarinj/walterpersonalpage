@@ -14,7 +14,8 @@ const About = () => {
                 I am an economist by profession now I am dedicated to being 
                 <br/>a fullstack developer since I love new challenges</p>
                 <h6>Downdload CV</h6><button type="button" 
-                class="btn btn-outline-warning">CV</button>
+                class="btn btn-outline-warning"><a href='CVWalterMarin.pdf' download>CV</a>
+                </button>
             </div>
         </div>
 
