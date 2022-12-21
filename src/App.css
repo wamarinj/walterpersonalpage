@@ -76,6 +76,31 @@
   height: 8rem;
 }
 
+.linkCv{
+  text-decoration: none;
+  border: 2px solid #18526e;
+  padding: .5rem;
+  border-radius: 10px;
+}
+.linkCv:hover{
+  color: #FFF;
+  background-color: #18526e  ;
+}
+.linkCv svg{
+  margin-right: 10px;
+}
+
+.nav2{
+  margin-right: 40px;
+  display: flex;
+  width: 40px;
+  justify-content: space-between;
+}
+.dropdown div{
+  right: 0;
+  left: unset !important;
+}
+
 @keyframes maquina {
   from {
     width: 100%;

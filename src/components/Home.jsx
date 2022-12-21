@@ -10,9 +10,9 @@ const Home = () => {
   React.useEffect(() => {
     const options = {
     	strings: [
-        'FullStack Developer',
-        '<p style="color:#cc0047">Backend developer</p>',
-        '<p style="color:#0099CC">Frontend developer</p>'
+        '<p style="color:#707070">FullStack Developer</p>',
+        '<p style="color:#BD1329">Backend Developer</p>',
+        '<p style="color:#79CCF2">Frontend Developer</p>'
       ],
       typeSpeed: 55,
       backSpeed: 50,
