@@ -29,38 +29,38 @@ const Contact = () => {
 
     return (
         <div class="contact">
-                <Form ref={form} onSubmit={sendEmail}>
+            <Form ref={form} onSubmit={sendEmail}>
                 <h4>Contact</h4>
                 <h4 className='subtitle'>Got a problem to solve?</h4>
                 <Form.Group className="mb-3" controlId="formBasicEmail" >
                     <Form.Text className="text-muted">
-                    <Form.Control 
-                        type="text" 
-                        placeholder="Enter name" 
-                        value={name}
-                        onChange={(e)=> setName(e.target.value)}
-                        name='user_name' 
-                    />
+                        <Form.Control
+                            type="text"
+                            placeholder="Enter name"
+                            value={name}
+                            onChange={(e) => setName(e.target.value)}
+                            name='user_name'
+                        />
                     </Form.Text>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Control 
-                        type="email" 
+                    <Form.Control
+                        type="email"
                         value={email}
-                        placeholder="Email" 
+                        placeholder="Email"
                         name='user_email'
-                        onChange={(e)=> setEmail(e.target.value)}
+                        onChange={(e) => setEmail(e.target.value)}
                     />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <InputGroup>
                         <InputGroup.Text>Message</InputGroup.Text>
-                        <Form.Control 
-                            as="textarea" 
-                            value={message} 
-                            aria-label="With textarea" 
-                            name='user_message' 
-                            onChange={(e)=> setMessage(e.target.value)}
+                        <Form.Control
+                            as="textarea"
+                            value={message}
+                            aria-label="With textarea"
+                            name='user_message'
+                            onChange={(e) => setMessage(e.target.value)}
                         />
                     </InputGroup>
                 </Form.Group>
@@ -70,29 +70,10 @@ const Contact = () => {
                 </Button>
                 <br></br>
                 <a href="https://www.linkedin.com/in/walter-m-b23a37177/">
-                    <img src="Linkedin_Logo.svg"     
-                    style={{width: "100px"}} />
-                </a>          
+                    <img src="Linkedin_Logo.svg"
+                        style={{ width: "100px" }} />
+                </a>
             </Form>
-{/* 
-            <h4>Contact</h4>
-            <h7>Got a problem to solve?</h7>
-            
-            <form ref={form} onSubmit={sendEmail}>
-                <label>Name</label>
-                <input type="text" name="user_name" /><br></br>
-                <label>Email</label>
-                <input type="email" name="user_email" /><br></br>
-                <label>Message</label>
-                <textarea name="user_message" /><br></br>
-                <input type="submit"  value="Send" />
-            </form>
-            
-            <a href="https://www.linkedin.com/in/walter-m-b23a37177/">
-                <img src="Linkedin_Logo.svg"
-                    style={{ width: "100px" }} />
-            </a> */}
-
         </div>
     );
 };
