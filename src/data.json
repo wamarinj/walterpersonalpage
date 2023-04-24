@@ -2,28 +2,28 @@
     {
         "id": 1,
         "title": "Poke Api",
-        "img" : "/src/img/pokeapi.PNG",
+        "img" : "/pokeapi.PNG",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."  ,
         "redirect" : "/"
     },
     {
         "id": 2,
         "title": "Ecomerce",
-        "img" : "src/img/ECOMERCE.PNG",
+        "img" : "/ECOMERCE.PNG",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
         "redirect" : "/"
     },  
     {
         "id":3,
         "title": "EcomRick and Morty",
-        "img" : "src/img/rickandmorty.PNG",
+        "img" : "/rickandmorty.PNG",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "redirect" : "/"
     },
     {
         "id":4,
         "title": "Weather App",
-        "img" : "src/img/weatherapp.PNG",
+        "img" : "/weatherapp.PNG",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "redirect" : "/"
     }

@@ -46,7 +46,7 @@ const Home = () => {
 
       <nav className='navBar' id="navBar">
         <div className='navLogo'>
-          <img src="src/assets/LogoW.svg" alt="Logow"></img>
+          <img src="/LogoW.svg" alt="Logow"></img>
         </div>
         <div>
           <ul className='navLinks'>
@@ -64,12 +64,12 @@ const Home = () => {
             </li>
             <li>
               <a href='https://www.linkedin.com/in/walter-m-b23a37177'>
-                <img src="src/assets/brandlinkedin.svg" alt="linkedin"></img>
+                <img src="/brandlinkedin.svg" alt="linkedin"></img>
               </a>
             </li>
             <li>
               <a href='https://github.com/wamarinj'>
-                <img src="src/assets/brand github-square.svg" alt="github"></img>
+                <img src="/brand github-square.svg" alt="github"></img>
               </a>
             </li>
           </ul>
@@ -92,21 +92,21 @@ const Home = () => {
         </a>
         <div className='cards'>
           <div className='cardServices'>
-            <img src="src/assets/Web.svg" alt="web"></img>
+            <img src="/Web.svg" alt="web"></img>
             <h4>Web Design</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Aliquam eu volutpat leo. Pellentesque elementum et nisi blandit interdum.
               Morbi convallis dui augue, finibus iaculis felis vulputate a. </p>
           </div>
           <div className='cardServices'>
-            <img src="src/assets/coding.svg" alt="coding"></img>
+            <img src="/coding.svg" alt="coding"></img>
             <h4>Coding</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Aliquam eu volutpat leo. Pellentesque elementum et nisi blandit interdum.
               Morbi convallis dui augue, finibus iaculis felis vulputate a. </p>
           </div>
           <div className='cardServices'>
-            <img src="src/assets/uiux.svg" alt="ui"></img>
+            <img src="/uiux.svg" alt="ui"></img>
             <h4>UI / UX Desing</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Aliquam eu volutpat leo. Pellentesque elementum et nisi blandit interdum.
@@ -146,10 +146,10 @@ const Home = () => {
           <div className='solveContact'>
             <h1>Got a problem <br></br>to solve?</h1>
             <a href='https://www.linkedin.com/in/walter-m-b23a37177'>
-              <img className='linkedinContact' src="src/assets/brand linkedin.png" alt="linkedin"></img> 
+              <img className='linkedinContact' src="/brand linkedin.png" alt="linkedin"></img> 
             </a>
             <a href='https://github.com/wamarinj'>
-            <img src="src/assets/brand github-square.png" alt="github"></img>
+            <img src="/brand github-square.png" alt="github"></img>
             </a>
             <p>walteramj@gmail.com</p>
           </div>
