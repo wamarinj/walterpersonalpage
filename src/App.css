@@ -8,13 +8,17 @@
   font-family: "Segoe UI", Arial, sans-serif;
 }
 
+body{
+  background-color: #181E30;  
+}
+
 .navBar{
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 85px;
   padding: 5px 10%;
-  background-color: #181E30;  
+  /* background-color: #181E30;   */
 }
 
 .navLinks{
@@ -47,7 +51,7 @@
   padding: 10rem 0;
 }
 .hireMe{
-  background-color: #181E30;
+  /* background-color: #181E30; */
   text-align: center;
   height: 352px;
 }
@@ -65,8 +69,7 @@
   font-size: 50px;
   font-weight: 400;
 }
-.titleMain button{
-}
+
 .services{
   width: 100%;
   background-color: #44495E;
