@@ -3,28 +3,28 @@
         "id": 1,
         "title": "Poke Api",
         "img" : "/pokeapi.PNG",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."  ,
-        "redirect" : "/"
+        "desc": "Using the pokemon API I show the information of each of the characters on cards. Technologies: React - Boostrap"  ,
+        "redirect" : "//https://silly-sprite-397cb0.netlify.app/"
     },
     {
         "id": 2,
         "title": "Ecomerce",
         "img" : "/ECOMERCE.PNG",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        "desc": "Using a product API, an ecommerce is created by attaching a shopping cart and user login. Technologies: React - Boostrap",
         "redirect" : "/"
     },  
     {
         "id":3,
         "title": "EcomRick and Morty",
         "img" : "/rickandmorty.PNG",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "desc": "Using the rick and morty API, cards with information about the characters and universes are shown Technologies: React - Boostrap",
         "redirect" : "/"
     },
     {
         "id":4,
         "title": "Weather App",
         "img" : "/weatherapp.PNG",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "desc": "Using a weather API is used to locate the location to give weather information",
         "redirect" : "/"
     }
 ]

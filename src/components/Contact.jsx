@@ -1,11 +1,10 @@
 import React, { useRef } from 'react';
 import { Button, Form, InputGroup } from 'react-bootstrap';
-import { useNavigate } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
 
 const Contact = () => {
-    const navigate = useNavigate();
+    
     const [message, setMessage] = useState("")
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")

@@ -62,7 +62,7 @@ body{
   color: #E7EFFF;
   border-radius: 6px;
   font-size: 16PX;
-  border: none;  
+  /* border: none;   */
 }
 .titleMain h1 {
   color: #E7EFFF;
@@ -156,7 +156,10 @@ body{
   border-radius: 6px;
   color: #FFFFFF;
   margin-left: 114px;
-  
+}
+.folioCard p{
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .contactMe {
   justify-content: center;
@@ -193,15 +196,14 @@ body{
 
 .solveContact{
   color: #E7EFFF;
-  
- 
+  margin-top: 40px;
 }
 .solveContact h1{
   font-size: 50px;
   font-weight: 400;
 }
 .solveContact img{
-  width: 30px;
+  width: 25px;
   height: auto;
   margin-top: 10px;
 }
@@ -210,25 +212,38 @@ body{
 }
 .solveContact p{
   color: #E7EFFF;
+  margin-left: -20px;
 }
 .formContact{
   color: #BBCAEA;
-  width: 250px;
-  /* height: 337px; */
+  width: 352px;
+  height: 312px;
 }
-
+.youname{
+  background-color: #181E30;
+  width: 325px;
+  height: 28px;
+  color: #BBCAEA;
+  border-radius: 6px;
+  border: none;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 .formContact textarea{
   border-radius: 6px;
   background-color: #BBCAEA;
   margin-top: 20px;
   margin-bottom: 20px;
+  resize: none;
 }
+
 .btnForm{
   background-color: #D4A418;
   width: 168px;
   height: 35px;
   border-radius: 6px;
-  border: none;
+  /* border: none; */
   color: #E7EFFF;
   font-size: 16px;
 }
